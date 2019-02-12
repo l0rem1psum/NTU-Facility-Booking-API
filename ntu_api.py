@@ -5,7 +5,7 @@ from flask import Flask, jsonify, request
 import json
 app = Flask(__name__)
 
-booker = Booker("B170007", "3a1415926535B!!!")
+booker = Booker("Username", "Password")
 booker.login()
 
 
